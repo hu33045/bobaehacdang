@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/jquery-3.7.1.js"></script>
     <!-- 슬릭 -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -22,18 +23,18 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('.pfAni').slick({
-                slidesToShow: 4,
-                slidesToScroll: 2,
-                autoplay: true,
-                autoplaySpeed: 1000,
-                dots: false,
-                infinite: true,
-                speed: 500,
-                cssEase: 'ease-out',
-                arrows:true,
-                fade:false
-            });
+            // $('.pfAni').slick({
+            //     slidesToShow: 4,
+            //     slidesToScroll: 2,
+            //     autoplay: true,
+            //     autoplaySpeed: 1000,
+            //     dots: false,
+            //     infinite: true,
+            //     speed: 500,
+            //     cssEase: 'ease-out',
+            //     arrows:true,
+            //     fade:false
+            // });
             $('.aboutAni').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -45,6 +46,40 @@
                 cssEase: 'ease-out',
                 arrows: false,
                 fade: true
+            });
+            $('.pfAni').slick({
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                dots: false,
+                infinite: true,
+                speed: 1500,
+                cssEase: 'ease-out',
+                arrows:true,
+                fade:false,
+                responsive: [
+                    {
+                    breakpoint: 1201,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 2,
+                        infinite: false,
+                        dots: false,
+                        arrows:true
+                    }
+                    },
+                    {
+                    breakpoint: 769,
+                    settings: {
+                        infinite: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows:true
+                    }
+                    }
+                   
+                ]
             });
         });
     </script>
@@ -197,6 +232,14 @@
     <script>
         $(document).ready(function(){
         AOS.init();
+        // $("#pfAni .slick-slide").hover(
+        //         function(){
+        //             $(this).children("a").addClass("currentpfAni");
+        //         },
+        //         function(){
+        //             $(this).children("a").removeClass("currentpfAni");
+        //         }
+        //     );  
         });
         
     </script>
@@ -221,6 +264,7 @@
                     <li><a href="https://open.kakao.com/o/shR2Ib8d/" class="block h6">고객상담</a></li>
                     <li><a href="" class="block h6">문의하기</a></li>
                 </ul>
+                <a href="" class="ham">전체메뉴</a>
             </nav>
         </div>
     </header>
@@ -386,7 +430,7 @@
                 </li>
                 <li>
                     <figure><img src="img/10.jpg" alt=""></figure>
-                    <h3>9</h3>
+                    <h3>10</h3>
                     <p>한자로 만나는 디지털아트<br>한자로 만나는 디지털아트<br>직접 만나보세요.</p>
                     <a href="">LEARN MORE</a>
                 </li>
@@ -397,8 +441,8 @@
     <section id="portfolio">
         <div class="wrap paddingT50 paddingB50 flex">
             <h2 class="h2 borderT">프로그램</h2>
-            <h4 class="bold" data-aos="fade-down" data-aos-offset="100" data-aos-duration="2000">디지털 한자 교육원 보배학당
-                <span class="block"></span></h4><p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">한자로 만나는 디지털아트</p> 
+            <h4 class="bold" data-aos="fade-down" data-aos-offset="50" data-aos-duration="100">디지털 한자 교육원 보배학당
+                <span class="block"></span></h4><p data-aos="fade-up" data-aos-offset="50" data-aos-duration="100">한자로 만나는 디지털아트</p> 
             <ul class="list pfAni">
                 <li class="pfAni-1">
                     <div>

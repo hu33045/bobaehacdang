@@ -631,6 +631,8 @@ background-color: #f4f0df;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 20px;
+  width: 320px;
+  height: 400px;
 }
 #portfolio div.wrap ul.list li p { 
   font-size: 16px;
@@ -652,7 +654,6 @@ background-color: #f4f0df;
   flex-direction: column;
   align-items: start;
   padding-top: 240px;
-  perspective: 490px;
 }
 
 #portfolio div.wrap h4{
@@ -681,7 +682,6 @@ background-color: #f4f0df;
   transition: 1s;
 }
 #portfolio div.wrap ul.list div.slick-track li:nth-child(2) h3 {
-
   grid-column: 1;
   grid-row: 1;
 }
@@ -689,25 +689,21 @@ background-color: #f4f0df;
   grid-column: 1;
   grid-row: 1 / span 2;
   position: relative;
-  perspective: 700px;
   width: fit-content;
 }
 #portfolio div.wrap ul.list li:nth-child(2) figure{
   grid-column: 2;
   grid-row: 1 / span 2;
 }
+#portfolio div.wrap ul.list{
 
+}
 #portfolio div.wrap ul.list li figure img {
   display: block;
-  width: 250px;
+  width: 270px;
   height: 200px;
 }
 
-@keyframes  slide{
-  100%{
-    transform: rotateY(190deg);
-  }
-}
 #portfolio div.wrap ul.list li ul.sub {
   width: auto;
   z-index: 1;
