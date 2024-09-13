@@ -278,7 +278,7 @@
     padding-left: 20px;
   }
   #portfolio div.wrap ul.list li figure img{
-    width: 220px;
+    width: 100%;
     height: 200px;
   }
 
