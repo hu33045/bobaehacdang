@@ -277,6 +277,10 @@
     align-items: center;
     padding-left: 20px;
   }
+  #portfolio div.wrap ul.list li figure img{
+    width: 220px;
+    height: 200px;
+  }
 
   /*  활동분야  */
   #product{
