@@ -14,11 +14,8 @@ font-size: calc(48px * 0.8);
 }
 .h2{
 font-size: calc(50px * 0.8);
-/*! font-weight: 600; */
 letter-spacing: 1px;
 text-transform: uppercase;
-/*! font-style: italic; */
-/*! text-decoration: underline; */
 position: absolute;
 top: 108px;
 width: 100% !important;
