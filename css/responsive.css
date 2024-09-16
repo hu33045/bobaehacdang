@@ -203,7 +203,8 @@
   header{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
   }
   header div.wrap nav{
     grid-template-columns: 1fr 1fr;
@@ -530,7 +531,7 @@
     /* process  */
     #process{
    height: 100vh;
-   width: 230vw;
+   width: 100vw;
   }
   #process div.wrap{
     width: 100%;
