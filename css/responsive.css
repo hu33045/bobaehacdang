@@ -549,7 +549,7 @@
     padding-bottom: 30px;
   }
   #process div.wrap .wnewsani li div.img{
-    margin-left: 60px;
+    margin-left: calc(50% - 160px);
   }
   #process div.wrap .wnews li a h3 {
     overflow: hidden;
