@@ -814,7 +814,6 @@ section#business div.wrap div ul.bus li.giv a h4 {
 /* 포트폴리오 */
 #portfolio {
   display: flex;
-  justify-content: center;
   align-items: center;
 background-color: #fff4e4;
 }
@@ -838,12 +837,11 @@ position: relative;
 }
 #portfolio .wrap .list button.slick-prev {
   background-image: url(../img/prev.png);
-  transform: translateX(-50%);
+  left: -40px;
 }
 #portfolio .wrap .list button.slick-next {
   background-image: url(../img/next.svg);
-  transform: translateY(-25%);
-  transform: translateX(50%);
+  right: -40px;
 }
 #portfolio .wrap .list button::before {
   display: none;
@@ -876,7 +874,7 @@ position: relative;
 
 #portfolio div.wrap {
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   padding-top: 240px;
 }
 
@@ -988,8 +986,7 @@ position: relative;
   background-color: #FFD100;
   color: #111;
 }
-/* 프로세스 */
-/* news */
+/* process */
 #process{ 
   background-color: #fff4e4;
 
@@ -998,6 +995,7 @@ position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction:column;
+  background-attachment: fixed;
 }
 #process div.wrap .ly{  
   justify-content: space-between;
@@ -1007,8 +1005,7 @@ position: relative;
 }
 #process div.wrap .ly h2{  
   margin: 12px 0 20px;
-  overflow: hidden;
-  
+  overflow: hidden;  
 }
 #process div.wrap ly a{
   position: absolute;
@@ -1041,53 +1038,73 @@ position: relative;
   position: absolute;
   text-align: center;
 }
-#process div.wrap ul.wnews{
+#process div.wrap ul.wnewsani{
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
-#process div.wrap ul.wnews li{
- 
+#process div.wrap ul.wnewsani button.slick-prev::before{
+ left: -25px;
+ color: red;
 }
-#process div.wrap ul.wnews li a{
+#process div.wrap ul.wnewsani button.slick-next::before{
+  right: -25px;
+  color: red;
+}
+#process div.wrap ul.wnewsani li a{
   
 }
-#process div.wrap .wnews li a span{
+#process div.wrap .wnewsani li a span{
 }
-#process div.wrap .wnews li a h3{
+#process div.wrap .wnewsani li a h3{
   overflow: hidden;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   font-family: rixsingose-pro, sans-serif;
   color: #111;
   line-height: 1.5;
+  margin: 20px;
 }
-#process div.wrap .wnews li span.date{
+#process div.wrap .wnewsani li span.date{
   font-size: 12px;
   line-height: 4;
   color: #888888;
   font-weight:bold;
   width: 100%;
   height: auto;
+  margin-left: 30px;
 }
-#process div.wrap .wnews li div.img{
+#process div.wrap .wnewsani li div.img{
   margin-top: 40px;
-  width: 370px;
-  height: 555px;
+  width: 250px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
+  margin-left:30px;
 }
-#process div.wrap .wnews li:nth-of-type(1) div.img{
+#process div.wrap .wnewsani li.wnewsani-1 div.img{
    background-image: url(../img/1.png);
 }
-#process div.wrap .wnews li:nth-of-type(2) div.img{
+#process div.wrap .wnewsani li.wnewsani-2 div.img{
    background-image: url(../img/2.png);
 }
-#process div.wrap .wnews li:nth-of-type(3) div.img{
+#process div.wrap .wnewsani li.wnewsani-3 div.img{
   background-image: url(../img/3.png);
 }
-#process div.wrap .wnews li:nth-of-type(4) div.img{
+#process div.wrap .wnewsani li.wnewsani-4 div.img{
+   background-image: url(../img/4.jpg);
+}
+#process div.wrap .wnewsani li.wnewsani-5 div.img{
+   background-image: url(../img/1.png);
+}
+#process div.wrap .wnewsani li.wnewsani-6 div.img{
+   background-image: url(../img/2.png);
+}
+#process div.wrap .wnewsani li.wnewsani-7 div.img{
+  background-image: url(../img/3.png);
+}
+#process div.wrap .wnewsani li.wnewsani-8 div.img{
    background-image: url(../img/4.jpg);
 }
 /* 컨텍 */

@@ -86,7 +86,7 @@
   #portfolio {
   }
   #portfolio div.wrap {
-    padding: 0;
+    padding: 0px;
     width: 90%;
     height: 100%;
     margin-left: auto;
@@ -96,8 +96,8 @@
     font-size: clac(50px * 0.8 );
   }
   #portfolio div.wrap ul.list li div{
-    margin-top: 100px;
-    width:auto;
+    width: auto;
+    margin-top: 50px;
   }
   #portfolio div.wrap ul.list li div h3{
     text-align: center;
@@ -110,7 +110,7 @@
   }
   #portfolio .wrap .list .slick-next{
     right:-10px;
-    top: calc((70% + 60px) * 0.6) ;
+    top: calc((70% + 60px) * 0.6);
   }
   #portfolio div.wrap ul.list li p {
     line-height: 1.2;
@@ -124,6 +124,10 @@
   }
   #portfolio div.wrap ul.list li figure img{
     width: 100%;
+  }
+  #portfolio div.wrap ul.list li figure{
+    padding-left: 50px;
+    padding-right: 50px;
   }
   /* sns */
   #sns{
@@ -252,7 +256,7 @@
     position: fixed;
     top: calc(25% - 14px);
     z-index: 1;
-    left:450px;
+    left:90vw;
   }
   /* aboutme   */
   #aboutme{
@@ -482,8 +486,6 @@
 
   /*  프로그램 */
   #portfolio {
-    height: auto;
-    width: 100vw;
   }
   #portfolio div.wrap {
     padding: 0px;
@@ -499,14 +501,16 @@
   }
   #portfolio div.wrap h5{
     margin-left: 0px;
-    padding-top: 120px; 
+    padding-top: 100px; 
   }
   #portfolio div.wrap ul.list li div{
-    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
   }
   #portfolio div.wrap ul.list li div h3{
     text-align: center;
-    grid-column: 1 ;
+    grid-column: 1;
     grid-row: 1;
   }
   #portfolio .wrap .list .slick-prev{
@@ -515,23 +519,21 @@
   }
   #portfolio .wrap .list .slick-next{
     right:-10px;
-    top: calc((70% + 60px) * 0.6) ;
+    top: calc((70% + 60px) * 0.6);
   }
   #portfolio div.wrap ul.list li p {
     color: #000;
     font-size: 12px;
-    padding: 0px;
   }
   #portfolio div.wrap ul.list li{
-    width:100%;
     text-align: center;
     padding-top: 0px;
   }
   #portfolio div.wrap ul.list li figure{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
-  #portfolio div.wrap ul.list li figure img{
+  #portfolio div.wrap ul.list li figure img {
     width: 100%;
   }
     /* process  */
@@ -547,16 +549,8 @@
     padding-top: 150px;
     padding-bottom: 30px;
   }
-  #process div.wrap ul.wnews {
-    gap: 5px;
-}
-    #process div.wrap ul.wnews li{
-    width: 100vw;
-    height: 50vh;
-  }
-  #process div.wrap ul.wnews li div.img{
-    width: 24vw;
-    height: 100vh;
+  #process div.wrap .wnewsani li div.img{
+    margin-left: 80px;
   }
   #process div.wrap .wnews li a h3 {
     overflow: hidden;
@@ -569,7 +563,7 @@
     height: auto;
   }
   #contact div.wrap{
-    padding: opx;
+  padding-top: 100px;
   }
   #contact p{
     padding-top: 0px;
@@ -678,7 +672,7 @@
   }
   .top{
     position: fixed;
-    left: 410px;
+    left: 85vw;
     bottom: 200px;
   }
 }
