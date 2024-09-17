@@ -68,19 +68,16 @@
   section#business div.wrap{
     background-color: #fff4e4;
   }
-  section#business div.wrap div ul.bus li.giv a button {
-    font-size:calc(100% * 0.7);
-    width: 20px;
-  }
-  section#business div.wrap div ul.bus{
+  section#business div.wrap div ul.givani li a button {
 
   }
   section#business div.wrap p{
     font-size: calc(22px * 0.8);
-    margin:20px 0 100px;
+    margin:20px 20px -50px;
   }
-  section#business div.wrap div ul.bus li.giv{
-    
+  section#business div.wrap div ul.givani{
+    padding-left: 60px;
+    padding-bottom: 0px;
   }
   /*  프로그램  */
   #portfolio {
@@ -260,14 +257,14 @@
   }
   /* aboutme   */
   #aboutme{
-    height: auto;
+    height: 100%;
     width: 100vw;
   }
   #aboutme div.wrap {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
     row-gap: 3px;
-    padding: 0 20px;
+    padding: 0 30px;
     column-gap: 0;
   } 
   #aboutme div.wrap ul.intro li:nth-child(1) p {
@@ -278,23 +275,24 @@
     position: relative;
     grid-column: 1;
     grid-row: 1 / span 2;
-    width:300px;
-    height:350px;
+    width:250px;
+    height:300px;
     display:block;
     justify-self: center;
-    margin-top: 50px
+    margin-top: 60px;
   } 
  #aboutme div.wrap figure img{
     width: 250px;
     height: 320px;
+    margin-top: 20px;
   } 
  #aboutme div.wrap ul.intro {
     grid-column: 1;
     grid-row: 3 / span 2;
   }
 #aboutme div.wrap ul.intro li:nth-child(1) {
-  margin-top:-50px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
   #aboutme div.wrap ul.intro li {
   display: flex;
@@ -316,7 +314,7 @@
     gap: 5px;
     height: 15px;
     font-size:12px;
-    margin-top: 0px;
+    margin-top: -50px;
   } 
 
 
@@ -390,9 +388,10 @@
     height: auto;
   }
   section#business div.wrap h1 {
-    font-size:calc(50px * 0.6);
+    font-size:calc(50px * 0.8);
     margin:0px;
     padding:0px;
+    padding: 50px;
   }
   @keyframes anih1{
    display:none;
@@ -427,7 +426,7 @@
   }
   section#business div.wrap p{
     font-size: calc(22px * 0.7);
-    margin:10px 0 60px;
+    margin:-20px 0px -150px 50px;
   }
   section#business div.wrap div ul.bus li.giv {
     width: calc(( 480px / 2 ) * 0.8 );
@@ -550,7 +549,7 @@
     padding-bottom: 30px;
   }
   #process div.wrap .wnewsani li div.img{
-    margin-left: 80px;
+    margin-left: 60px;
   }
   #process div.wrap .wnews li a h3 {
     overflow: hidden;

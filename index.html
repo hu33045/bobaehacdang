@@ -80,7 +80,7 @@
             $('.wnewsani').slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
-                autoplay: false,
+                autoplay: true,
                 autoplaySpeed: 500,
                 dots: true,
                 infinite: true,
@@ -111,6 +111,44 @@
                         fade:true,
                         dots: true,
                         arrows:false
+                    }
+                    }
+                   
+                ]
+            });
+            $('.givani').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 500,
+                dots: false,
+                infinite: false,
+                speed: 500,
+                cssEase: 'ease-out',
+                arrows:true,
+                fade:false,
+                responsive: [
+                    {
+                    breakpoint: 1201,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        autoplay: true,
+                        infinite: true,
+                        fade:true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        infinite: true,
+                        arrows:true,
+                        dots: false,
+                        fade:true
                     }
                     }
                    
@@ -502,12 +540,13 @@
     </section>
     <section id="business">
         <div class="wrap">
-            <h1 class=""><span>W</span><span>h</span><span>a</span><span>t</span> <span>w</span><span>e</span> <span>d</span><span>o</span>
-            <br><span>B</span><span>u</span><span>s</span><span>i</span><span>n</span><span>e</span><span>s</span><span>s</span></h1>
-            <p>디지털 한문 성장과 디지털 튜터활동을 위해 노력하고 있습니다.</p>
+            <h1 class="bold" data-aos="fade-down" data-aos-offset="200" data-aos-duration="500">
+                <span>W</span><span>h</span><span>a</span><span>t</span><span>w</span><span>e</span><span>d</span><span>o</span>
+            <br><span>B</span><span>u</span><span>s</span><span>i</span><span>n</span><span>e</span><span data-aos="fade-down" data-aos-offset="300" data-aos-duration="800">s</span><span>s</span></h1>
+            <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">디지털 한문 성장과 디지털 튜터활동을 위해 노력하고 있습니다.</p>
             <div>
-                <ul class="bus">
-                    <li class="giv">
+                <ul class="givani">
+                    <li class="list givani-1">
                       <a href="" class="block">
                         <h3 class="h5">디지털한문</h3>
                         <button>BUSINESSAREA</button>
@@ -515,7 +554,7 @@
                         <i class="circle"></i>
                       </a>
                     </a>
-                    <li class="giv">
+                    <li class="list givani-2">
                       <a href="" class="block">
                         <h3 class="h5">디지털멘토</h3>
                         <button>BUSINESSAREA</button>
@@ -523,7 +562,7 @@
                         <i class="circle"></i>
                       </a>
                     </li>
-                    <li class="giv">
+                    <li class="list givani-3">
                       <a href="" class="block">
                         <h3 class="h5">디지털문맹탈출</h3>
                         <button>BUSINESSAREA</button>
@@ -531,7 +570,7 @@
                         <i class="circle"></i>
                       </a>
                     </li>
-                    <li class="giv">
+                    <li class="list givani-4">
                       <a href="" class="block">
                         <h3 class="h5">디지털배움터</h3>
                         <button>BUSINESSAREA</button>
@@ -539,7 +578,7 @@
                         <i class="circle"></i>
                       </a>
                     </li>
-                    <li class="giv">
+                    <li class="list givani-5">
                       <a href="" class="block">
                         <h3 class="h5">디지털아트</h3>
                         <button>BUSINESSAREA</button>
@@ -547,7 +586,7 @@
                         <i class="circle"></i>
                       </a>
                     </li>
-                    <li class="giv">
+                    <li class="list givani-6">
                      <a href="" class="block">								
                         <h3 class="h5">디지털강연</h3>
                         <button>BUSINESSAREA</button>
