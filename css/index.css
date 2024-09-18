@@ -787,8 +787,8 @@ section#business div.wrap div ul.givani li a i::after{
   position:absolute;
   background-position:center;
   z-index: 2;
-  bottom: 33px;
-  right: 31px;
+  bottom: 32px;
+  right: 32px;
 }
 section#business div.wrap div ul.givani li a:hover i {
   opacity: 1;
@@ -1376,11 +1376,11 @@ position: relative;
 }
 #sns .slick-prev::before{ 
   color: red;
-   left: -40px;
+   left: -25px;
 }
 #sns .slick-next::before{ 
   color: red;
-  right: -40px;
+  right: -25px;
 }
 #sns .slick-slide{
   padding-top: 50px;
