@@ -104,7 +104,7 @@ header div.wrap nav ul.enb li a {
 /* 어사이드 */
 aside{
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: calc(50% - 146px);
   z-index: 1;
 }
@@ -118,10 +118,10 @@ aside ul li.rogo:nth-child(1) a::before{
   content: "보배학당";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
+  left: -60px;
   top: 10px;
   display: block;
-  width: 100px;
+  width: 70px;
   height: 10px;
   font-weight: bold;
 }
@@ -129,8 +129,8 @@ aside ul li:nth-child(2) a::before{
   content: "원장소개";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
-  top: 44px;
+  left: -60px;
+  top: 37px;
   display: block;
   width: 100px;
   height: 10px;
@@ -141,8 +141,8 @@ aside ul li:nth-child(3) a::before{
   content: "활동";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
-  top: 72px;
+  left: -45px;
+  top: 57px;
   display: block;
   width: 110px;
   height: 10px;
@@ -152,8 +152,8 @@ aside ul li:nth-child(4) a::before{
   content: "디지털";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
-  top: 100px;
+  left: -55px;
+  top: 79px;
   display: block;
   width: 110px;
   height: 10px;
@@ -163,8 +163,8 @@ aside ul li:nth-child(5) a::before{
   content: "프로그램";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
-  top: 128px;
+  left: -60px;
+  top: 100px;
   display: block;
   width: 90px;
   font-weight: bold;
@@ -173,8 +173,8 @@ aside ul li:nth-child(6) a::before{
   content: "칼럼";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
-  top: 156px;
+  left: -45px;
+  top: 121px;
   display: block;
   width: 90px;
   font-weight: bold;
@@ -183,14 +183,14 @@ aside ul li:nth-child(7) a:before{
   content: "소통하기";  
   position: absolute;
   font-size: 14px;
-  left: -70px;
-  top: 185px;
+  left: -60px;
+  top: 142px;
   display: block;
   width: 90px;
   font-weight: bold;
 }
 aside ul li:not(last-child){
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 aside ul li a{   
   font-size: 0;
@@ -805,12 +805,16 @@ section#business div.wrap div ul.givani li a button {
   color: #f39800;
 }
 section#business div.wrap ul.givani button.slick-prev::before{
- left: -25px;
  color: red;
 }
+section#business div.wrap ul.givani button.slick-prev{
+  left: 0px;
+}
 section#business div.wrap ul.givani button.slick-next::before{
-  right: -25px;
   color: red;
+}
+section#business div.wrap ul.givani button.slick-next{
+  right: 0%;
 }
 section#business div.wrap div ul.givani li a h4 {
   grid-column: 2;
@@ -1014,25 +1018,18 @@ position: relative;
   margin: 12px 0 20px;
   overflow: hidden;  
 }
-#process div.wrap ly a{
+#process div.wrap .ly a{
   position: absolute;
   font-size: 15px;
   opacity: 0.6 !important;
-  font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
-  right: 0;
-  margin-right: 50px;
+  right: 30px;
   padding-top: 17px;
   font-weight: 900;
 }
 #process div.wrap a:hover{
   color:red;
-  opacity:1;
-}
-#process div.wrap a:after:hover{
- content:"   >";
- color:red;
 }
 #process div.wrap a:after{
   content:"";
@@ -1041,9 +1038,12 @@ position: relative;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url(../img/next.svg);
+  background-image: url(../img/arrow.png);
   position: absolute;
   text-align: center;
+}
+#process div.wrap a:hover::after{
+  background-image: url(../img/arrow1.png);
 }
 #process div.wrap ul.wnewsani{
   display: flex;
@@ -1083,8 +1083,8 @@ position: relative;
 }
 #process div.wrap .wnewsani li div.img{
   margin-top: 40px;
-  width: 250px;
-  height: 500px;
+  width: 320px;
+  height: 450px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
