@@ -715,27 +715,27 @@ section#business div.wrap div ul.givani li h3:before{
 
 }
 section#business div.wrap div ul.givani li.givani-1>a{
-  position: absolute;
+  position: relative;
   background-image: url(../img/s1.png);
 }
 section#business div.wrap div ul.givani li.givani-2>a{
-  position: absolute;
+  position: relative;
   background-image: url(../img/s2.png);
 }
 section#business div.wrap div ul.givani li.givani-3>a{
-  position: absolute;
+  position: relative;
   background-image: url(../img/s3.png);
 }
 section#business div.wrap div ul.givani li.givani-4>a{
-  position: absolute;
+  position: relative;
   background-image: url(../img/s4.png);
 }
 section#business div.wrap div ul.givani li.givani-5>a{
-  position: absolute;
+  position: relative;
   background-image: url(../img/s5.png);
 }
 section#business div.wrap div ul.givani li.givani-6>a{
-  position: absolute;
+  position: relative;
   background-image: url(../img/s6.png);
 }
 section#business div.wrap div ul.givani li {
@@ -808,13 +808,13 @@ section#business div.wrap ul.givani button.slick-prev::before{
  color: red;
 }
 section#business div.wrap ul.givani button.slick-prev{
-  left: 0px;
+  left: 25px;
 }
 section#business div.wrap ul.givani button.slick-next::before{
   color: red;
 }
 section#business div.wrap ul.givani button.slick-next{
-  right: 0%;
+  right: 25px;
 }
 section#business div.wrap div ul.givani li a h4 {
   grid-column: 2;
@@ -890,7 +890,6 @@ position: relative;
 }
 
 #portfolio div.wrap h4{
-  margin-left: 25px;
 }
 #portfolio div.wrap h2 {
 }
@@ -1265,7 +1264,8 @@ position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   box-sizing: border-box;
   background-color: #fff; 
   border-radius:8px;  
@@ -1310,8 +1310,8 @@ position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
-  column-gap: 20px;
-  row-gap: 12px;
+  column-gap: 10px;
+  row-gap: 10px;
   width: fit-content;
   margin: 0 auto;
   transition: 0.7s;
@@ -1365,13 +1365,14 @@ position: relative;
   background-color: #fff4e4;
 }
 #sns h2{
-  margin-top: 20px;
-  text-align: left;
+  margin-top: -50px;
+  text-align: center;
   font-size: 50px;
   letter-spacing: 10px;
   text-transform: uppercase;
   opacity: 0.2;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 #sns .slick-prev::before{ 
   color: red;
