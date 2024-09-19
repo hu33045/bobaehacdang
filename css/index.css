@@ -474,7 +474,7 @@ section::before{
 #product .wrap{
   padding-top: 200px;
 }
-}
+
 #product ul.list li figure{
   width: 100%;
 }
@@ -503,11 +503,12 @@ section::before{
   text-align: center;
   gap: 11px;
   color: white;
-  opacity: 0;
+  opacity: 0.2;
   transition:0.7s;
 }
 #product ul.list li:hover .wrapText{
-   opacity: 0.5;
+   opacity: 0.7;
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 #product ul.list li .wrapText>*{
 
@@ -564,16 +565,15 @@ margin-bottom: 200px;
     background-size: contain;
 }
 
-#product .btn_pause.on{ //붙여쓰기
-    background: url('../img/play.svg') no-repeat center;
-    width: 30px; 
-    height: 30px;
-    text-indent: -9999px;
+/* #product .btn_pause.on { //붙여쓰기
+    background: url('../img/play.svg'); 
+    width : 30px; 
+    height : 30px;
     border:none;
     cursor: pointer;
-    outline: none;
+    outline : none;
    background-size: contain;
-}
+} */
 #product button{
   position: static;
   transform: translate(0,0);
