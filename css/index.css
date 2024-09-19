@@ -503,7 +503,7 @@ section::before{
   text-align: center;
   gap: 11px;
   color: white;
-  opacity: 0.5;
+  opacity: 0;
   transition:0.7s;
 }
 #product ul.list li:hover .wrapText{
