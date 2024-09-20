@@ -137,7 +137,7 @@ aside ul li:nth-child(3) a::before{
   content: "디지털";  
   position: absolute;
   font-size: 14px;
-  left: -55px;
+  left: -50px;
   top: 57px;
   display: block;
   font-weight: bold;
