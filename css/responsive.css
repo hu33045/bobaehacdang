@@ -130,6 +130,10 @@
     padding-left: 50px;
     padding-bottom: 50px;  
   }
+  section#business div.wrap div {
+  padding-top: 67px;
+  padding-bottom: 0px;
+}
   /*  프로그램  */
   #portfolio {
   }
@@ -142,7 +146,7 @@
   }
   #portfolio div.wrap h5{
     font-size:25px;
-    margin-top: 170px;
+    margin-top: 167px;
   }
   #portfolio div.wrap p {
     font-size: clac(50px * 0.8 );
@@ -258,7 +262,7 @@
   }
   .h2{
     font-size: calc(50px * 0.6);
-    top: 30px;
+    top: 0px;
   }
   div.wrap p{
   }
@@ -338,7 +342,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:100vw;
+    width:100%;
   }
   #aboutme div.wrap ul.intro li:nth-child(1) p {
     font-size: 18px;
@@ -466,7 +470,7 @@
     font-size:calc(100px * 0.8);
     margin:0px;
     padding:0px;
-    padding: 20px; 
+    padding-top: 20px; 
   }
   @keyframes anih1{
     display:none;
@@ -483,10 +487,12 @@
   section#business div.wrap div{
     width:100%;
 
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
   section#business div.wrap p{
     font-size: calc(22px * 0.7);
-    margin:10px 0px -150px 10px;
+    margin:10px 0px -100px 10px;
   }
   section#business div.wrap div ul.givani li{
 
@@ -537,7 +543,8 @@
   }
   #portfolio div.wrap h5{
     margin-left: 0px;
-    padding-top: 100px; 
+    padding-top: 0px; 
+    margin-top: 80px;
   }
   #portfolio div.wrap ul.list li div{
     margin-left: 20px;
@@ -583,10 +590,10 @@
   }
   #process div.wrap{
     width: 100%;
-    padding: 0px;
+    padding-bottom: 50px;
   }
   #process div.wrap .ly {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
   #process div.wrap .wnewsani li div.img{
