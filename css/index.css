@@ -1,6 +1,6 @@
 body{
   position: relative;
-  /*! background-color: #fff4e4; */
+  background-color: #fff4e4;
 }
 body::before{
   content: "";
@@ -503,13 +503,15 @@ section::before{
   text-align: center;
   gap: 11px;
   color: white;
-  opacity: 0.2;
+  opacity: 0.1;
   transition:0.7s;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
+#product ul.list li figure:hover{
+}
 #product ul.list li:hover .wrapText{
    opacity: 0.7;
-   transform: scale(1.5)
+   transform: scale(1.2)
 }
 #product ul.list li .wrapText>*{
 
@@ -522,7 +524,7 @@ section::before{
   
 } 
 #product {
-
+background-color: #fff4e4;
 }
 #product .wrap {
 max-width: 100%;
@@ -566,26 +568,10 @@ margin-bottom: 200px;
     background-size: contain;
 }
 
-/* #product .btn_pause.on { //붙여쓰기
-    background: url('../img/play.svg'); 
-    width : 30px; 
-    height : 30px;
-    border:none;
-    cursor: pointer;
-    outline : none;
-   background-size: contain;
-} */
 #product button{
   position: static;
   transform: translate(0,0);
 }
-#product .wrap img {
-  transform: scale(1.1);
-  height: 500px;
-  width: 100%;
-  margin-bottom: 0;
-}
-
 #product .wrap .slick-dots{
   bottom: -140px;
   display: flex;
@@ -624,8 +610,7 @@ margin-bottom: 200px;
 #product .wrap .slick-dots li.slick-active button::before{
 
 }
-#product  .wbutton{
-  
+#product  .wbutton{  
   position: absolute;
   z-index: 1;
   width: 100px;
@@ -860,7 +845,7 @@ section#business div.wrap ul.givani button.slick-next{
 section#business div.wrap div ul.givani li a h4 {
   grid-column: 2;
   grid-row: 2; 
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 /* 포트폴리오 */
@@ -1142,7 +1127,7 @@ position: relative;
   background-image: url(../img/3.png);
 }
 #process div.wrap .wnewsani li.wnewsani-4 div.img{
-   background-image: url(../img/4.jpg);
+   background-image: url(../img/4.png);
 }
 #process div.wrap .wnewsani li.wnewsani-5 div.img{
    background-image: url(../img/1.png);
@@ -1311,7 +1296,8 @@ position: relative;
   margin-right: 5px;
   box-sizing: border-box;
   background-color: #fff; 
-  border-radius:8px;  
+  border-radius:8px; 
+  padding: 5px;
 }
 #contact ul.src li a::before{
   content: "";
@@ -1436,6 +1422,8 @@ position: relative;
 footer {
   background-color: #333;
   color: #D1D1D1;
+  overflow: hidden;
+  width:100vw;
 }
 footer a{
   color:#fff;
