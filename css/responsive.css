@@ -26,22 +26,11 @@
   header .wrap nav{    
     row-gap: 0px;
   }
-  header .wrap nav h1{
-    grid-column: 1;
-    justify-self: left;
-  }
-  header .wrap nav ul.gnb{
-    grid-column: 1 / span 2;
-    justify-self: center;
-  }
+
   header .wrap nav ul.gnb li a{
     padding: 20px 20px;
   }
-  header .wrap nav ul.enb{
-    grid-column: 2;
-    grid-row: 1;
-    align-self: center;
-  }
+
   header .wrap nav ul.enb li a{
     padding: 10px 8px;
   }
@@ -66,8 +55,8 @@
   padding-left: 10px;
   }
   #aboutme div.wrap figure{
-    width: 320px;
-    height:420px;
+    width: 350px;
+    height:400px;
     grid-column: 1 / span 2;
     grid-row: 3 / span 3;
     justify-self: center;
@@ -353,7 +342,7 @@
     position: relative;
     grid-column: 1;
     grid-row: 1 / span 2;
-    width:250px;
+    width:280px;
     height:300px;
     display:block;
     justify-self: center;
@@ -361,8 +350,8 @@
   } 
   #aboutme div.wrap figure img{
     width: 100%;
-    height: 320px;
-    margin-top: 20px;
+    height: 308px;
+    /*! margin-top: 20px; */
   } 
   #aboutme div.wrap ul.intro {
     grid-column: 1;
@@ -623,14 +612,12 @@
     line-height: 1.5;
     padding-left: 30px;
   }
-  #contact .con ul.list{
-    font-size:calc(100% * 0.6); 
-  }
   #contact .sourcesite h3 {
     font-size:calc(100% * 0.8);
   }
   #contact .con ul.list{
     padding-left: 0px;
+    font-size:calc(22px * 0.6); 
   }
   #contact .con ul.list::before {
     transform: scale(1.7) translateY(11%) translateX(-35%);
